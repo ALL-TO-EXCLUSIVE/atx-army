@@ -86,7 +86,7 @@ export default function RegisterPage() {
         </div>
         <div className={`bg-black p-8 h-screen shadow-md w-full sm:w-1/2 flex items-center justify-center relative `}>
         <h1 className="text-5xl font-bold mb-6 text-center font-sans absolute top-[10%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white z-10">ATX ARMY</h1>
-        <Image src="/ffmobile.jpg" alt="Logo" width={1000} height={1000} quality={100} className="w-full h-full opacity-25 object-cover absolute top-0 left-0" />
+        <Image src="/ffmobile.jpg" alt="Logo" width={1000} height={1000} quality={100} className="w-full h-full opacity-20 sm:opacity-0 object-cover absolute top-0 left-0" />
         <div className=" p-8 rounded-lg w-[400px] z-10">
         <h2 className="text-2xl font-bold mb-6 text-center">Register</h2>
         {error && <p className="text-red-500 mb-4">{error}</p>}
